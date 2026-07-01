@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 MODEL_PATH = os.path.join("model_phase2", "best_phase2.pt")
-CONFIDENCE_THRESHOLD = 0.25
+CONFIDENCE_THRESHOLD = 0.15
 
 CLASS_NAMES = [
     "Basophil", "Eosinophil", "Erythroblast", "IG", "Lymphocyte",
